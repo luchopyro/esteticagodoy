@@ -1,0 +1,550 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+* {
+	box-sizing: border-box;
+	text-align: center;
+	padding: 0;
+	margin: 0;
+}
+
+.fondoEsteticaGodoy {
+
+	background: rgb(240, 240, 240);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}
+
+.imagenDeEstetica {
+
+	background-image: url(imagenes/fondoabstracto.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 650px;
+	background-position: center;
+
+}
+
+.tituloEsteticaGodoy {
+
+	font-size: 80px;
+	font-family: 'Anton', sans-serif;
+	font-weight: lighter;
+	color: white;
+	padding-top: 3em;
+
+
+}
+
+.navegador {
+
+	background: rgba(0, 0, 0, 0.4);
+	padding: 0;
+	height: 80px;
+	width: 100%;
+	position: fixed;
+	top: 0;
+
+
+}
+
+
+.navbar-light .navbar-nav .nav-link {
+
+	font-family: 'Anton', sans-serif;
+	color: yellow;
+	padding-left: 4em;
+	font-size: 20px;
+
+
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+
+	color: yellow;
+}
+
+
+
+.navbar-light .navbar-nav .active>.nav-link,
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .show>.nav-link {
+
+	color: yellow;
+
+}
+
+.navbar {
+
+	padding: 0;
+
+}
+
+.nav-linkEstetica {
+
+	padding-left: 10px;
+	padding-right: 2em;
+	color: yellow;
+	font-family: 'Anton', sans-serif;
+	font-size: 30px;
+	display: flex;
+	align-items: center;
+}
+
+.nav-linkEstetica:hover {
+
+	text-decoration: none;
+	color: yellow;
+}
+
+
+.formularioEstetica {
+
+	background: rgba(0, 0, 0, 0.2);
+	padding: 1em;
+	margin: 25rem;
+	margin-top: 1em;
+	margin-bottom: 1em;
+
+}
+
+.formEstetica {
+
+	display: flex;
+	justify-content: center;
+	padding: 2em;
+
+}
+
+.formularioGodoy {
+
+	width: 100%;
+	font-family: 'Anton', sans-serif;
+
+}
+
+.imagenGodoy {
+
+	width: 400px;
+	height: 280px;
+	padding: 30px;
+	transition: all .8s;
+}
+
+.imagenGodoy:hover {
+
+	transform: scale(1.3);
+
+}
+
+
+
+.fotosGodoy {
+
+	display: flex;
+	justify-content: space-evenly;
+
+}
+
+.contactanosGodoy {
+
+	height: 800px;
+	width: 800px;
+
+
+}
+
+.videosGodoy {
+
+	width: 800px;
+	height: 800px;
+	padding-bottom: 0;
+
+}
+
+.quienesSomosGodoy {
+
+	height: 800px;
+	width: 800px;
+	padding-left: 30rem;
+	padding-bottom: 5em;
+	padding-top: 5em;
+}
+
+h3 {
+	color: yellow;
+	font-family: 'Anton', sans-serif;
+	font-size: 25px;
+	background-color: black;
+	margin: 50px;
+	box-shadow: 5px 5px 10px grey;
+}
+
+.contactoUno:hover {
+
+	text-decoration: none;
+	color: yellow;
+}
+
+.tratamiento {
+
+	background-color: #804000;
+	font-family: 'Anton', sans-serif;
+	font-size: 20px;
+	border-color: #804000;
+
+}
+
+.tratamientoUno {
+
+	font-family: 'Anton', sans-serif;
+	font-size: 20px;
+	border-color: #804000;
+	color: #804000;
+
+
+}
+
+.tratamientosEstetica {
+
+	font-family: 'Anton', sans-serif;
+	font-size: 20px;
+	color: grey;
+	width: 140px;
+
+}
+
+.horariosEstetica {
+
+	font-family: 'Anton', sans-serif;
+	font-size: 20px;
+	color: grey;
+
+}
+
+.diasEstetica {
+
+	font-family: 'Anton', sans-serif;
+	font-size: 20px;
+	color: grey;
+	width: 70px;
+}
+
+.botonesTurnos {
+
+	background-color: black;
+	border-color: black;
+	font-family: 'Anton', sans-serif;
+	font-size: 18px;
+
+}
+
+.botonesTurnosUno {
+
+	padding: 30px;
+}
+
+
+
+
+.imagenUno {
+
+	width: 300px;
+	height: 200px;
+	transition: all 500ms ease-in-out;
+}
+
+
+
+
+.fotosEstetica {
+
+	padding: auto;
+	margin: auto;
+	height: 500px;
+
+}
+
+.iconoEstetica {
+
+	padding-bottom: 20px;
+}
+
+
+#tituloMaquinas {
+
+	text-align: center;
+	color: yellow;
+	font-family: 'Anton', sans-serif;
+	font-size: 30px;
+	background: black;
+	padding: 0;
+	box-shadow: 5px 5px 10px grey;
+	font-weight: lighter;
+}
+
+
+
+h4 {
+
+	font-family: 'Anton', sans-serif;
+	font-size: 30px;
+
+}
+
+
+.videosUno {
+
+	width: 400px;
+	height: 200px;
+	padding-top: 150px;
+	padding-right: 40px;
+
+}
+
+.imagenDos {
+
+	width: 1000px;
+	height: 500px;
+
+}
+
+
+.fraseEstetica {
+
+	text-align: center;
+	font-family: 'Anton', sans-serif;
+	font-size: 30px;
+	color: grey;
+
+
+}
+
+
+.estiloTexto {
+
+	text-align: center;
+	font-family: 'Anton', sans-serif;
+	font-size: 20px;
+	color: grey;
+
+}
+
+.frasesBelleza {
+
+	background: white;
+	padding: 20px;
+
+}
+
+
+
+.botoneraInicial {
+
+	height: 1px;
+	padding: 30px;
+
+}
+
+
+.botoneraDos {
+
+	font-size: 20px;
+	font-family: 'Anton', sans-serif;
+	display: flex;
+	justify-content: center;
+
+}
+
+
+.botoneraDosFinal {
+
+	text-decoration: none;
+
+}
+
+
+.imagenNueva {
+
+	display: flex;
+	justify-content: space-between;
+}
+
+
+
+
+
+.contactoUno {
+
+	text-decoration: none;
+	color: yellow;
+	font-size: 25px;
+
+}
+
+
+
+.turneroInicial {
+
+	background: rgb(241, 237, 241);
+	background: linear-gradient(90deg, rgba(241, 237, 241, 1) 0%, rgba(173, 106, 167, 1) 100%);
+
+}
+
+
+
+
+
+.imagenTratamiento {
+
+	width: 40%;
+	height: 40%;
+	padding-top: 30px;
+	margin-top: 30px;
+
+}
+
+
+.videosEstetica {
+
+	display: flex;
+	align-content: center;
+	padding-bottom: 5em;
+	padding-top: 5px;
+
+
+}
+
+.fondoPrincipalEstetica {
+
+	background-color: rgb(240, 240, 240);
+
+}
+
+.quienesSomos {
+
+	color: #804000;
+	font-family: 'Anton', sans-serif;
+	font-size: 60px;
+	text-align: center;
+	background: #fffff3;
+
+}
+
+.fondoVideoEstetica {
+
+	background-color: rgb(240, 240, 240);
+
+}
+
+.imagenDeFondoDos{
+
+    background: black;
+    height: 300px;
+    max-width: 100%;
+    text-align: center;
+    
+
+}
+
+.logoEstetica{
+
+  width: 400px;
+  height:150px;
+  padding-bottom: 0;
+  padding-top: 60px;
+
+}  
+
+
+.contactoFooter{
+
+	color: white;
+	font-family: 'Anton', sans-serif;
+	padding-top: 0;
+  font-size: 20px;
+  text-align: center;
+
+}
+
+@media (max-width: 576px) {
+
+	header {
+
+
+		display: flex;
+		background-size: cover;
+		background-repeat: no-repeat;
+
+
+	}
+}
+
+@media (max-width: 576px) {
+
+
+	.datos {
+
+		display: flex;
+		justify-content: center;
+		flex-wrap: wrap;
+
+	}
+}
+
+@media (max-width: 576px) {
+
+	.tituloUno {
+
+
+		font-size: 60px;
+
+
+	}
+
+
+}
+
+@media (max-width: 576px) {
+
+	.imagenDeFondo {
+
+
+		padding: auto;
+		margin: auto;
+
+
+
+	}
+
+
+}
+
+
+@media (max-width: 576px) {
+
+	.fotosEsteticaUno {
+
+		padding: 0;
+
+
+	}
+
+}
+
+
+
+
+@media (max-width: 768px) {
+
+	.fotosEstetica {
+
+
+		height: 200px;
+		width: 300px;
+
+
+	}
+}

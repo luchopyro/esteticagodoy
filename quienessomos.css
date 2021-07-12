@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+.navegador {
+
+	background: rgba(0, 0, 0, 0.4);
+	padding: 0;
+	height: 80px;
+	width: 100%;
+	position: fixed;
+	top: 0;
+
+
+}
+
+
+.navbar-light .navbar-nav .nav-link {
+
+	font-family: 'Anton', sans-serif;
+	color: yellow;
+	padding-left: 4em;
+	font-size: 20px;
+
+
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+
+	color: yellow;
+}
+
+
+
+.navbar-light .navbar-nav .active>.nav-link,
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .show>.nav-link {
+
+	color: yellow;
+
+}
+
+.navbar {
+
+	padding: 0;
+
+}
+
+.nav-linkEstetica {
+
+	padding-left: 10px;
+	padding-right: 2em;
+	color: yellow;
+	font-family: 'Anton', sans-serif;
+	font-size: 30px;
+	display: flex;
+	align-items: center;
+}
+
+.nav-linkEstetica:hover {
+
+	text-decoration: none;
+	color: yellow;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	background: rgb(240, 240, 240)
+}
+
+
+.tituloEsteticaGodoy {
+
+	font-size: 80px;
+	font-family: 'Anton', sans-serif;
+	font-weight: lighter;
+	color: white;
+	padding-top: 3em;
+	padding-left: 500px;
+
+
+}
+
+h2 {
+    color: yellow;
+    font-family: 'Anton', sans-serif;
+    font-size: 30px;
+    text-align: center;
+    background: black;
+    font-weight: lighter;
+    box-shadow: 5px 5px 10px grey;
+    padding: 0;
+    margin:0;
+  }
+
+.quienesSomos {
+
+	font-family: 'Anton', sans-serif;
+	font-weight: lighter;
+	color: grey;
+	font-size: 30px;
+	background: white;
+	padding: 20px;
+
+}
+
+.quienesSomosGodoy {
+
+	height: 70%;
+	width: 70%;
+	display: flex;
+	padding-left: 18rem;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+
+
+
+.imagenDeFondoDos{
+
+    background: black;
+    height: 300px;
+    max-width: 100%;
+    text-align: center;
+    
+
+}
+
+.logoEstetica{
+
+  width: 400px;
+  height:150px;
+  padding-bottom: 0;
+  padding-top: 60px;
+
+}  
+
+
+.contactoFooter{
+
+	color: white;
+	font-family: 'Anton', sans-serif;
+	padding-top: 0;
+  font-size: 20px;
+  text-align: center;
+
+}
+
+.imagenDeEstetica {
+
+	background-image: url(imagenes/fondoabstracto.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 650px;
+	background-position: center;
+
+}
