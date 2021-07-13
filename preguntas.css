@@ -77,8 +77,6 @@ body {
 	font-weight: lighter;
 	color: white;
 	padding-top: 3em;
-	padding-left: 500px;
-
 
 }
 
@@ -224,5 +222,7 @@ p {
     background-repeat: no-repeat;
     height: 650px;
     background-position: center;
+    display: flex;
+    justify-content: center;
 
 }
