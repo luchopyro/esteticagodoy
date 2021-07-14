@@ -147,6 +147,7 @@
 .fotosGodoy {
 
 	display: flex;
+	align-items: center;
 	justify-content: space-evenly;
 
 }
@@ -191,6 +192,19 @@ h3 {
 	color: yellow;
 }
 
+.consultanos{
+
+	padding-top: 100px;
+
+}
+
+.iconoConsultanos{
+
+	padding-bottom: 100px;
+	padding-top: 50px;
+
+}
+
 .tratamientosEstetica {
 
 	font-family: 'Anton', sans-serif;
@@ -227,7 +241,8 @@ h3 {
 
 .botonesTurnosUno {
 
-	padding: 30px;
+	padding-top: 50px;
+	padding-bottom: 100px;
 }
 
 
@@ -378,7 +393,11 @@ h4 {
 }
 
 
+p{
 
+	text-shadow: 0.5px 0.5px black;
+
+}
 
 
 .imagenTratamiento {
