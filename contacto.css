@@ -117,7 +117,7 @@ h2 {
 
 	font-family: 'Anton', sans-serif;
 	font-weight: lighter;
-	font-size: 30px;
+	font-size: 25px;
 	color: grey;
 	padding-bottom: 100px;
 	text-shadow: 0.5px 0.5px black;
@@ -164,6 +164,14 @@ h2 {
 	background-position: center;
 	display: flex;
 	justify-content: center;
+
+}
+
+.iconoSocial{
+
+	width: 60px;
+	height: 60px;
+	margin: 10px;
 
 }
 

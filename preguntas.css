@@ -143,6 +143,7 @@ p {
     width: 500px;
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 
 
 }
@@ -195,11 +196,11 @@ p {
 
 .botonForm {
 
-    text-align: center;
-    padding: 20px;
-    padding-right: 130px;
-    display: flex;
-    flex-wrap: wrap;
+display: flex;
+flex-wrap: wrap;
+padding: 30px;
+padding-left: 150px;
+padding-right: 100px;
 
 }
 
