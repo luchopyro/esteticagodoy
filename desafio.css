@@ -134,6 +134,8 @@
 	height: 280px;
 	padding: 30px;
 	transition: all .8s;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .imagenGodoy:hover {
@@ -149,6 +151,7 @@
 	display: flex;
 	align-items: center;
 	justify-content: space-evenly;
+  flex-wrap: wrap;
 
 }
 
@@ -459,5 +462,72 @@ p{
 	padding-top: 0;
   font-size: 20px;
   text-align: center;
+
+}
+
+@media all and (max-width: 576px){
+
+  *{
+
+    box-sizing: border-box;
+
+  }
+
+.iconoConsultanos{
+
+  display: flex;
+  justify-items: center;
+
+}
+  
+.iconoEstetica{
+
+  width: 100%;
+  height: 400px;
+  padding: 0;
+  margin: 0;
+
+}  
+
+.contactanosGodoy{
+
+  width: 100%;
+  height: 400px;
+
+}
+
+.formPrincipal{
+
+  display: flex;
+  justify-content: center;
+
+}
+
+
+.formularioEstetica {
+
+	background: rgba(0, 0, 0, 0.2);
+	margin-top: 50px;
+	margin-bottom: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
+  padding: 0;
+
+}
+
+.formEstetica {
+
+	display: flex;
+	justify-content: center;
+
+}
+
+.formularioGodoy {
+
+	width: 100%;
+	font-family: 'Anton', sans-serif;
+
+}
+
 
 }

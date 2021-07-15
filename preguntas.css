@@ -9,7 +9,7 @@
     position: fixed;
     top: 0;
     display: flex;
-	flex-wrap: wrap;
+    flex-wrap: wrap;
 
 }
 
@@ -72,11 +72,11 @@ body {
 
 .tituloEsteticaGodoy {
 
-	font-size: 80px;
-	font-family: 'Anton', sans-serif;
-	font-weight: lighter;
-	color: white;
-	padding-top: 3em;
+    font-size: 80px;
+    font-family: 'Anton', sans-serif;
+    font-weight: lighter;
+    color: white;
+    padding-top: 3em;
 
 }
 
@@ -89,8 +89,8 @@ h2 {
     font-weight: lighter;
     box-shadow: 5px 5px 10px grey;
     padding: 0;
-    margin:0;
-  }
+    margin: 0;
+}
 
 .consultasEstetica {
 
@@ -129,6 +129,8 @@ p {
 
     padding-left: 200px;
     padding-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
 
 }
 
@@ -139,6 +141,8 @@ p {
     margin: 0;
     padding: 0;
     width: 500px;
+    display: flex;
+    flex-wrap: wrap;
 
 
 }
@@ -148,6 +152,8 @@ p {
     display: flex;
     justify-content: center;
     padding: 2em;
+    display: flex;
+    flex-wrap: wrap;
 
 }
 
@@ -155,6 +161,8 @@ p {
 
     width: 25rem;
     font-family: 'Anton', sans-serif;
+    display: flex;
+    flex-wrap: wrap;
 
 }
 
@@ -164,10 +172,12 @@ p {
     height: 150px;
     font-family: 'Anton', sans-serif;
     text-align: initial;
+    display: flex;
+    flex-wrap: wrap;
 
 }
 
-.botonEstetica{
+.botonEstetica {
 
     background: black;
     border-color: black;
@@ -177,45 +187,49 @@ p {
     font-family: 'Anton', sans-serif;
     font-weight: lighter;
     margin: 5px;
+    display: flex;
+    flex-wrap: wrap;
 
 
 }
 
-.botonForm{
+.botonForm {
 
     text-align: center;
     padding: 20px;
     padding-right: 130px;
+    display: flex;
+    flex-wrap: wrap;
 
 }
 
 
-.imagenDeFondoDos{
+.imagenDeFondoDos {
 
     background: black;
     height: 300px;
     max-width: 100%;
     text-align: center;
-    
+
 
 }
 
-.logoEstetica{
+.logoEstetica {
 
-  width: 400px;
-  height:150px;
-  padding-bottom: 0;
-  padding-top: 60px;
+    width: 400px;
+    height: 150px;
+    padding-bottom: 0;
+    padding-top: 60px;
 
-}  
+}
 
-.contactoFooter{
+.contactoFooter {
 
-	color: white;
-	font-family: 'Anton', sans-serif;
-	padding-top: 0;
-  font-size: 20px;
-  text-align: center;
+    color: white;
+    font-family: 'Anton', sans-serif;
+    padding-top: 0;
+    font-size: 20px;
+    text-align: center;
 
 }
 
@@ -228,5 +242,40 @@ p {
     background-position: center;
     display: flex;
     justify-content: center;
+
+}
+
+@media all and (max-width: 576px) {
+
+    .consultasEstetica {
+
+        display: flex;
+        flex-direction: column;
+        padding: 50px;
+
+    }
+
+    .formularioConsultas {
+
+        padding: 0;
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+
+    .preguntasFrecuentes {
+
+        padding: 50px;
+
+    }
+
+    .botonForm {
+
+        padding: 30px;
+        padding-left: 150px;
+        padding-right: 100px;
+
+    }
+
 
 }

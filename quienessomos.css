@@ -170,3 +170,30 @@ p{
 	text-shadow: 1px 1px black;
 
 }
+
+@media all and (max-width: 576px){
+
+	.quienesSomos{
+
+		text-align: center;
+
+	}
+
+	
+.iconoQuienesSomos{
+
+	display: flex;
+	justify-items: center;
+  
+  }
+	
+  .quienesSomosGodoy{
+  
+	width: 100%;
+	height: 400px;
+	padding: 0;
+	margin: 0;
+  
+  }  
+
+}
