@@ -542,10 +542,9 @@ p {
 	.navbar-nav {
 
 		margin-left: 60px;
-		background-color: rgba(0, 0, 0, 0.4);
+		background-color: black;
 
 	}
-
 
 }
 
@@ -557,6 +556,13 @@ p {
 		text-align: center;
 		padding: 0;
 		margin: 0;
+
+	}
+
+	.nav-link{
+
+		padding:5px;
+		padding-right: 20px;
 
 	}
 
@@ -624,11 +630,16 @@ p {
 
 	.navbar-nav {
 
+		padding-right: 80px;
 		margin-left: 60px;
-		background-color: rgba(0, 0, 0, 0.4);
+		background-color: black;
 
 	}
 
+	.nav-linkEstetica {
 
+		padding-left: 100px;
+		padding-right: 20px;
 
+	}
 }

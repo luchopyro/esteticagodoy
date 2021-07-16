@@ -144,6 +144,7 @@ h2 {
 }
 
 
+
 .contactoFooter {
 
 	color: white;
@@ -216,7 +217,7 @@ p {
 	.navbar-nav {
 
 		margin-left: 60px;
-		background-color: rgba(0, 0, 0, 0.4);
+		background-color: black;
 
 	}
 
@@ -265,8 +266,16 @@ p {
 
 	.navbar-nav {
 
+		padding-right: 80px;
 		margin-left: 60px;
-		background-color: rgba(0, 0, 0, 0.4);
+		background-color: black;
+
+	}
+
+	.nav-linkEstetica {
+
+		padding-left: 100px;
+		padding-right: 20px;
 
 	}
 
