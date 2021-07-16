@@ -10,6 +10,7 @@
     top: 0;
     display: flex;
     flex-wrap: wrap;
+    z-index: 1;
 
 }
 
@@ -125,6 +126,27 @@ p {
 
 }
 
+h3 {
+
+    font-family: 'Anton', sans-serif;
+    font-weight: lighter;
+    text-align: center;
+    margin: 0;
+    padding-left: 80px;
+    padding-bottom: 20px;
+}
+
+#preguntas {
+
+    font-family: 'Anton', sans-serif;
+    font-weight: lighter;
+    text-align: center;
+    margin: 0;
+    padding-bottom: 20px;
+    padding-right: 80px;
+
+}
+
 .formularioConsultas {
 
     padding-left: 200px;
@@ -196,11 +218,18 @@ p {
 
 .botonForm {
 
-display: flex;
-flex-wrap: wrap;
-padding: 30px;
-padding-left: 150px;
-padding-right: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 30px;
+    padding-left: 160px;
+    padding-right: 90px;
+
+}
+
+
+.botonEstetica {
+
+    padding-left: 15px;
 
 }
 
@@ -248,11 +277,42 @@ padding-right: 100px;
 
 @media all and (max-width: 576px) {
 
+    * {
+
+        box-sizing: border-box;
+        text-align: center;
+        padding: 0;
+        margin: 0;
+
+    }
+
     .consultasEstetica {
 
         display: flex;
         flex-direction: column;
         padding: 50px;
+
+    }
+
+    h3 {
+
+        font-family: 'Anton', sans-serif;
+        font-weight: lighter;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+        padding-bottom: 20px;
+
+    }
+
+    #preguntas {
+
+        font-family: 'Anton', sans-serif;
+        font-weight: lighter;
+        text-align: center;
+        margin: 0;
+        padding-left: 80px;
+        padding-bottom: 20px;
 
     }
 
@@ -278,5 +338,111 @@ padding-right: 100px;
 
     }
 
+
+    .botonEstetica {
+
+        padding-left: 15px;
+
+    }
+
+
+    .navbar-toggler {
+
+        background-color: rgba(255, 251, 4, 0.8);
+
+    }
+
+    .navbar-nav {
+
+        margin-left: 60px;
+        background-color: rgba(0, 0, 0, 0.4);
+
+    }
+
+
+}
+
+@media all and (max-width: 786px) {
+
+    * {
+
+        box-sizing: border-box;
+        text-align: center;
+        padding: 0;
+        margin: 0;
+
+    }
+
+    h3 {
+
+        font-family: 'Anton', sans-serif;
+        font-weight: lighter;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+        padding-bottom: 20px;
+
+    }
+
+    #preguntas {
+
+        font-family: 'Anton', sans-serif;
+        font-weight: lighter;
+        text-align: center;
+        margin: 0;
+        padding-left: 80px;
+        padding-bottom: 20px;
+
+    }
+
+    .consultasEstetica {
+
+        display: flex;
+        flex-direction: column;
+        padding: 50px;
+
+    }
+
+    .formularioConsultas {
+
+        padding: 0;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+
+    }
+
+    .preguntasFrecuentes {
+
+        padding: 50px;
+
+    }
+
+    .botonForm {
+
+        padding: 30px;
+        padding-left: 100px;
+        padding-right: 100px;
+
+    }
+
+    .botonEstetica {
+
+        padding-left: 15px;
+
+    }
+
+    .navbar-toggler {
+
+        background-color: rgba(255, 251, 4, 0.8);
+
+    }
+
+    .navbar-nav {
+
+        margin-left: 60px;
+        background-color: rgba(0, 0, 0, 0.4);
+
+    }
 
 }
