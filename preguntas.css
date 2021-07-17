@@ -359,6 +359,12 @@ h3 {
 
     }
 
+    .logoEstetica{
+
+		width: 70%;
+
+	}
+
 }
 
 @media all and (max-width: 786px) {
