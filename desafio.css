@@ -664,4 +664,37 @@ p {
 
 	}
 
+	.contactanosGodoy{
+
+		width: 90%;
+		height: 90%;
+
+	}
+
+	.iconoEstetica{
+
+		width: 90%;
+		height: 90%;
+
+	}
+
+	.imagenGodoy{
+
+		width: 350px;
+		height: 250px;
+	
+	}
+
+	.fraseEstetica{
+
+		font-size: 20px;
+
+	}
+
+	.tituloEsteticaGodoy{
+
+		font-size: 60px;
+
+	}
+
 }
