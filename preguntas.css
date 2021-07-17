@@ -246,7 +246,7 @@ h3 {
 
 .logoEstetica {
 
-	width: 30%;
+	width: 400px;
 	height: 150px;
 	padding-bottom: 0;
 	padding-top: 60px;
@@ -265,7 +265,7 @@ h3 {
 
 .imagenDeEstetica {
 
-    background-image: url(imagenes/fondoabstracto.jpg);
+    background-image: url(imagenes/fondoOscuro.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     height: 650px;
