@@ -311,3 +311,37 @@ td {
 	}
 
 }
+
+@media all and (max-width: 411px){
+
+	.tituloEsteticaGodoy{
+
+		font-size: 60px;
+
+	}
+
+	.tratamientosEstetica {
+
+		font-size: 25px;
+		background-color: #fffff3;
+	}
+
+	td{
+
+		font-size: 20px;
+
+	}
+
+	p{
+
+		font-size: 20px;
+
+	}
+
+	.logoEstetica{
+
+		width: 100%;
+
+	}
+
+}

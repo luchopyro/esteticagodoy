@@ -246,10 +246,10 @@ h3 {
 
 .logoEstetica {
 
-	width: 400px;
-	height: 150px;
-	padding-bottom: 0;
-	padding-top: 60px;
+    width: 400px;
+    height: 150px;
+    padding-bottom: 0;
+    padding-top: 60px;
 
 }
 
@@ -359,11 +359,11 @@ h3 {
 
     }
 
-    .logoEstetica{
+    .logoEstetica {
 
-		width: 70%;
+        width: 70%;
 
-	}
+    }
 
 }
 
@@ -445,17 +445,69 @@ h3 {
 
     .navbar-nav {
 
-		padding-right: 80px;
-		margin-left: 60px;
-		background-color: black;
+        padding-right: 80px;
+        margin-left: 60px;
+        background-color: black;
 
-	}
+    }
 
-	.nav-linkEstetica {
+    .nav-linkEstetica {
 
-		padding-left: 100px;
-		padding-right: 20px;
+        padding-left: 100px;
+        padding-right: 20px;
 
-	}
+    }
 
 }
+
+@media all and (max-width: 411px) {
+
+    .formularioEstetica {
+
+        margin: 0;
+        padding: 0;
+        width: 80%;
+    }
+
+    .formularioGodoyDos {
+
+        height: 100px;
+        width: 100%;
+
+    }
+
+    .formularioGodoy{
+
+        width: 100%;
+
+    }
+
+
+    .botonForm{
+
+        padding: 0;
+
+    }
+
+    #preguntas{
+
+        padding:0;
+
+    }
+
+    .tituloEsteticaGodoy{
+
+		font-size: 60px;
+
+	}
+
+    .logoEstetica{
+
+		width: 100%;
+
+	}
+}
+
+
+	
+

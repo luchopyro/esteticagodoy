@@ -151,10 +151,10 @@ p {
 
 .logoEstetica {
 
-	width: 400px;
-	height: 150px;
-	padding-bottom: 0;
-	padding-top: 60px;
+  width: 400px;
+  height: 150px;
+  padding-bottom: 0;
+  padding-top: 60px;
 
 }
 
@@ -207,11 +207,12 @@ p {
 
   }
 
-  .logoEstetica{
+  .logoEstetica {
 
-		width: 70%;
+    width: 70%;
 
-	}
+  }
+
 
 }
 
@@ -234,16 +235,39 @@ p {
 
   .navbar-nav {
 
-		padding-right: 80px;
-		margin-left: 60px;
-		background-color: black;
+    padding-right: 80px;
+    margin-left: 60px;
+    background-color: black;
 
-	}
+  }
 
-	.nav-linkEstetica {
+  .nav-linkEstetica {
 
-		padding-left: 100px;
-		padding-right: 20px;
+    padding-left: 100px;
+    padding-right: 20px;
+
+  }
+
+}
+
+@media all and (max-width: 411px) {
+
+  .secundario__imagen {
+
+    width: 350px;
+    height: 200px;
+
+  }
+
+  .tituloEsteticaGodoy {
+
+    font-size: 60px;
+
+  }
+
+  .logoEstetica{
+
+		width: 100%;
 
 	}
 

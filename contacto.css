@@ -277,3 +277,19 @@ h2 {
 	}
 
 }
+
+@media all and (max-width: 411px){
+
+	.tituloEsteticaGodoy{
+
+		font-size: 60px;
+
+	}
+
+	.logoEstetica{
+
+		width: 100%;
+
+	}
+
+}
