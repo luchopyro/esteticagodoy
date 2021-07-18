@@ -158,7 +158,7 @@ h2 {
 
 .imagenDeEstetica {
 
-	background-image: url(imagenes/fondoOscuro.jpg);
+	background-image: url(../imagenes/fondoOscuro.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
 	height: 650px;

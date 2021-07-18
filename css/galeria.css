@@ -106,7 +106,7 @@ h2 {
 .secundario__imagen {
 
   width: 400px;
-  height: 230px;
+  height: 250px;
   box-shadow: 5px 5px 10px grey;
   transition: all 0.8s;
   display: flex;
@@ -172,7 +172,7 @@ p {
 
 .imagenDeEstetica {
 
-  background-image: url(imagenes/fondoOscuro.jpg);
+  background-image: url(../imagenes/fondoOscuro.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   height: 650px;
@@ -213,6 +213,13 @@ p {
 
   }
 
+  .secundario__imagen {
+
+    width: 400px;
+    height: 300px;
+
+  }
+
 
 }
 
@@ -248,6 +255,13 @@ p {
 
   }
 
+  .secundario__imagen {
+
+    width: 400px;
+    height: 300px;
+
+  }
+
 }
 
 @media all and (max-width: 411px) {
@@ -255,7 +269,7 @@ p {
   .secundario__imagen {
 
     width: 300px;
-    height: 180px;
+    height: 200px;
 
   }
 
