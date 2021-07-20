@@ -550,7 +550,8 @@ h3 {
    
 }
 
-@media only screen and (min-width: 920px) {
+
+@media only screen and (min-width: 920px) and (max-width: 1200px) {
 
     * {
 

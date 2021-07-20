@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
 
+
 $color: rgba(0, 0, 0, 0.4);
+
 
 @mixin color ($colores) {
 
@@ -353,7 +355,8 @@ h2 {
 
 }
 
-@media only screen and (min-width: 920px) {
+
+@media only screen and (min-width: 920px) and (max-width: 1200px) {
 
        * {
 
