@@ -223,8 +223,9 @@ h2 {
 
        .navbar-nav {
 
+              padding-right: 80px;
               margin-left: 60px;
-              background-color: black;
+              background-color: rgba(0, 0, 0, 0.4)
 
        }
 
@@ -238,6 +239,12 @@ h2 {
 
               width: 40px;
               height: 40px;
+
+       }
+
+       .tituloEsteticaGodoy {
+
+              font-size: 60px;
 
        }
 
@@ -282,7 +289,7 @@ h2 {
 
               padding-right: 80px;
               margin-left: 60px;
-              background-color: black;
+              background-color: rgba(0, 0, 0, 0.4)
 
        }
 
@@ -300,13 +307,19 @@ h2 {
 
        }
 
+       .tituloEsteticaGodoy {
+
+              font-size: 60px;
+
+       }
+
 }
 
 @media all and (max-width: 411px) {
 
        .tituloEsteticaGodoy {
 
-              font-size: 60px;
+              font-size: 50px;
 
        }
 
@@ -326,6 +339,78 @@ h2 {
 
               width: 30px;
               height: 30px;
+
+       }
+
+       .navbar-nav {
+
+              padding-right: 80px;
+              margin-left: 60px;
+              background-color: rgba(0, 0, 0, 0.4)
+
+       }
+
+}
+
+@media all and (max-width: 920px) {
+
+       * {
+
+              box-sizing: border-box;
+              text-align: center;
+              padding: 0;
+              margin: 0;
+
+       }
+
+       .iconoContacto {
+
+              display: flex;
+              justify-content: center;
+
+       }
+
+       .contactoGodoy {
+
+              padding: 0;
+              margin: 0;
+              width: 90%;
+              height: 90%;
+
+       }
+
+
+       .navbar-toggler {
+
+              background-color: rgba(255, 251, 4, 0.8);
+
+       }
+
+       .navbar-nav {
+
+              padding-right: 80px;
+              margin-left: 60px;
+              background-color: rgba(0, 0, 0, 0.4)
+
+       }
+
+       .nav-linkEstetica {
+
+              padding-left: 100px;
+              padding-right: 20px;
+
+       }
+
+       .iconoSocial {
+
+              width: 40px;
+              height: 40px;
+
+       }  
+
+       .tituloEsteticaGodoy {
+
+              font-size: 70px;
 
        }
 

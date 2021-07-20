@@ -196,9 +196,15 @@ p {
 
   .navbar-nav {
 
-    margin-left: 60px;
-    background-color: black;
+		padding-right: 80px;
+		margin-left: 60px;
+		background-color: rgba(0, 0, 0, 0.4);
 
+	}
+  .tituloEsteticaGodoy {
+
+    font-size: 60px;
+  
   }
 
   .logoEstetica {
@@ -236,11 +242,11 @@ p {
 
   .navbar-nav {
 
-    padding-right: 80px;
-    margin-left: 60px;
-    background-color: black;
+		padding-right: 80px;
+		margin-left: 60px;
+		background-color: rgba(0, 0, 0, 0.4);
 
-  }
+	}
 
   .nav-linkEstetica {
 
@@ -249,10 +255,16 @@ p {
 
   }
 
+  .tituloEsteticaGodoy {
+
+    font-size: 60px;
+  
+  }
+
   .secundario__imagen {
 
     width: 400px;
-    height: 300px;
+    height: 250px;
 
   }
 
@@ -263,13 +275,7 @@ p {
   .secundario__imagen {
 
     width: 300px;
-    height: 200px;
-
-  }
-
-  .tituloEsteticaGodoy {
-
-    font-size: 60px;
+    height: 180px;
 
   }
 
@@ -278,5 +284,66 @@ p {
 		width: 100%;
 
 	}
+
+  .tituloEsteticaGodoy {
+
+    font-size: 50px;
+  
+  }
+
+  .navbar-nav {
+
+		padding-right: 80px;
+		margin-left: 60px;
+		background-color: rgba(0, 0, 0, 0.4);
+
+	}
+
+}
+
+@media all and (max-width: 920px) {
+
+  * {
+
+    box-sizing: border-box;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+
+  }
+
+  .navbar-toggler {
+
+    background-color: rgba(255, 251, 4, 0.8);
+
+  }
+
+  .navbar-nav {
+
+		padding-right: 80px;
+		margin-left: 60px;
+		background-color: rgba(0, 0, 0, 0.4);
+
+	}
+
+  .nav-linkEstetica {
+
+    padding-left: 100px;
+    padding-right: 20px;
+
+  }
+
+  .tituloEsteticaGodoy {
+
+    font-size: 70px;
+  
+  }
+
+  .secundario__imagen {
+
+    width: 280px;
+    height: 180px;
+
+  }
 
 }

@@ -248,8 +248,9 @@ td {
 
 	.navbar-nav {
 
+		padding-right: 80px;
 		margin-left: 60px;
-		background-color: black;
+		background-color: rgba(0, 0, 0, 0.4);
 
 	}
 
@@ -258,6 +259,12 @@ td {
 		width: 70%;
 
 	}
+
+	.tituloEsteticaGodoy {
+
+		font-size: 60px;
+	  
+	  }
 
 }
 
@@ -299,7 +306,7 @@ td {
 
 		padding-right: 80px;
 		margin-left: 60px;
-		background-color: black;
+		background-color: rgba(0, 0, 0, 0.4);
 
 	}
 
@@ -310,13 +317,19 @@ td {
 
 	}
 
+	.tituloEsteticaGodoy {
+
+		font-size: 60px;
+	  
+	  }
+
 }
 
 @media all and (max-width: 411px){
 
 	.tituloEsteticaGodoy{
 
-		font-size: 60px;
+		font-size: 50px;
 
 	}
 
@@ -357,4 +370,70 @@ td {
 
 	}
 
+	.navbar-nav {
+
+		padding-right: 80px;
+		margin-left: 60px;
+		background-color: rgba(0, 0, 0, 0.4);
+
+	}
+
 }
+
+@media all and (max-width: 920px) {
+
+	* {
+
+		box-sizing: border-box;
+		text-align: center;
+		padding: 0;
+		margin: 0;
+
+	}
+
+	.iconoTratamiento {
+
+		display: flex;
+		justify-content: center;
+
+	}
+
+	.visitanosGodoy {
+
+		padding: 0;
+		margin: 0;
+		width: 100%;
+		height: 400px;
+
+	}
+
+
+	.navbar-toggler {
+
+		background-color: rgba(255, 251, 4, 0.8);
+
+	}
+
+	.navbar-nav {
+
+		padding-right: 80px;
+		margin-left: 60px;
+		background-color: rgba(0, 0, 0, 0.4);
+
+	}
+
+	.nav-linkEstetica {
+
+		padding-left: 100px;
+		padding-right: 20px;
+
+	}
+
+	.tituloEsteticaGodoy {
+
+		font-size: 70px;
+	  
+	  }
+
+}
+

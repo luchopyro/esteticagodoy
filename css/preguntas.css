@@ -354,8 +354,9 @@ h3 {
 
     .navbar-nav {
 
+        padding-right: 80px;
         margin-left: 60px;
-        background-color: black;
+        background-color: rgba(0, 0, 0, 0.4);
 
     }
 
@@ -364,6 +365,12 @@ h3 {
         width: 70%;
 
     }
+
+    .tituloEsteticaGodoy{
+
+		font-size: 60px;
+
+	}
 
 }
 
@@ -447,7 +454,7 @@ h3 {
 
         padding-right: 80px;
         margin-left: 60px;
-        background-color: black;
+        background-color: rgba(0, 0, 0, 0.4);
 
     }
 
@@ -457,6 +464,12 @@ h3 {
         padding-right: 20px;
 
     }
+
+    .tituloEsteticaGodoy{
+
+		font-size: 60px;
+
+	}
 
 }
 
@@ -497,7 +510,7 @@ h3 {
 
     .tituloEsteticaGodoy{
 
-		font-size: 60px;
+		font-size: 50px;
 
 	}
 
@@ -506,6 +519,113 @@ h3 {
 		width: 100%;
 
 	}
+
+    .navbar-nav {
+
+        padding-right: 80px;
+        margin-left: 60px;
+        background-color: rgba(0, 0, 0, 0.4);
+
+    }
+}
+
+@media all and (max-width: 920px) {
+
+    * {
+
+        box-sizing: border-box;
+        text-align: center;
+        padding: 0;
+        margin: 0;
+
+    }
+
+    h3 {
+
+        font-family: 'Anton', sans-serif;
+        font-weight: lighter;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+        padding-bottom: 20px;
+
+    }
+
+    #preguntas {
+
+        font-family: 'Anton', sans-serif;
+        font-weight: lighter;
+        text-align: center;
+        margin: 0;
+        padding-left: 80px;
+        padding-bottom: 20px;
+
+    }
+
+    .consultasEstetica {
+
+        display: flex;
+        flex-direction: column;
+        padding: 50px;
+
+    }
+
+    .formularioConsultas {
+
+        padding: 0;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+
+    }
+
+    .preguntasFrecuentes {
+
+        padding: 50px;
+
+    }
+
+    .botonForm {
+
+        padding: 30px;
+        padding-left: 100px;
+        padding-right: 100px;
+
+    }
+
+    .botonEstetica {
+
+        padding-left: 15px;
+
+    }
+
+    .navbar-toggler {
+
+        background-color: rgba(255, 251, 4, 0.8);
+
+    }
+
+    .navbar-nav {
+
+        padding-right: 80px;
+        margin-left: 60px;
+        background-color: rgba(0, 0, 0, 0.4);
+
+    }
+
+    .nav-linkEstetica {
+
+        padding-left: 100px;
+        padding-right: 20px;
+
+    }
+
+    .tituloEsteticaGodoy{
+
+		font-size: 70px;
+
+	}
+
 }
 
 

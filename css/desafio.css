@@ -164,22 +164,6 @@
 
 }
 
-.videosGodoy {
-
-	width: 800px;
-	height: 800px;
-	padding-bottom: 0;
-
-}
-
-.quienesSomosGodoy {
-
-	height: 800px;
-	width: 800px;
-	padding-left: 30rem;
-	padding-bottom: 5em;
-	padding-top: 5em;
-}
 
 h3 {
 	color: yellow;
@@ -297,22 +281,6 @@ h4 {
 
 }
 
-
-.videosUno {
-
-	width: 400px;
-	height: 200px;
-	padding-top: 150px;
-	padding-right: 40px;
-
-}
-
-.imagenDos {
-
-	width: 1000px;
-	height: 500px;
-
-}
 
 
 .fraseEstetica {
@@ -541,14 +509,21 @@ p {
 
 	.navbar-nav {
 
+		padding-right: 80px;
 		margin-left: 60px;
-		background-color: black;
+		background-color: rgba(0, 0, 0, 0.4);
 
 	}
 
-	.logoEstetica{
+	.logoEstetica {
 
 		width: 70%;
+
+	}
+
+	.tituloEsteticaGodoy {
+
+		font-size: 60px;
 
 	}
 
@@ -565,9 +540,9 @@ p {
 
 	}
 
-	.nav-link{
+	.nav-link {
 
-		padding:5px;
+		padding: 5px;
 		padding-right: 20px;
 
 	}
@@ -638,7 +613,7 @@ p {
 
 		padding-right: 80px;
 		margin-left: 60px;
-		background-color: black;
+		background-color: rgba(0, 0, 0, 0.4);
 
 	}
 
@@ -648,53 +623,188 @@ p {
 		padding-right: 20px;
 
 	}
-}
 
-@media all and (max-width: 411px){
-
-	.tituloEsteticaGodoy{
+	.tituloEsteticaGodoy {
 
 		font-size: 60px;
 
 	}
 
-	.logoEstetica{
+}
+
+@media all and (max-width: 411px) {
+
+	.tituloEsteticaGodoy {
+
+		font-size: 60px;
+
+	}
+
+	.logoEstetica {
 
 		width: 100%;
 
 	}
 
-	.contactanosGodoy{
+	.contactanosGodoy {
 
 		width: 90%;
 		height: 90%;
 
 	}
 
-	.iconoEstetica{
+	.iconoEstetica {
 
 		width: 90%;
 		height: 90%;
 
 	}
 
-	.imagenGodoy{
+	.imagenGodoy {
 
 		width: 300px;
 		height: 200px;
-	
+
 	}
 
-	.fraseEstetica{
+	.fraseEstetica {
 
 		font-size: 20px;
 
 	}
 
-	.tituloEsteticaGodoy{
+	.tituloEsteticaGodoy {
 
-		font-size: 60px;
+		font-size: 50px;
 
 	}
 
+	.navbar-nav {
+
+		padding-right: 80px;
+		margin-left: 60px;
+		background-color: rgba(0, 0, 0, 0.4);
+
+	}
+
+}
+
+@media all and (max-width: 920px) {
+
+	* {
+
+		box-sizing: border-box;
+		text-align: center;
+		padding: 0;
+		margin: 0;
+
+	}
+
+	.nav-link {
+
+		padding: 5px;
+		padding-right: 20px;
+
+	}
+
+	.iconoConsultanos {
+
+		display: flex;
+		justify-items: center;
+
+	}
+
+	.iconoEstetica {
+
+		width: 100%;
+		height: 400px;
+		padding: 0;
+		margin: 0;
+
+	}
+
+	.contactanosGodoy {
+
+		width: 100%;
+		height: 400px;
+
+	}
+
+	.formPrincipal {
+
+		display: flex;
+		justify-content: center;
+
+	}
+
+
+	.formularioEstetica {
+
+		background: rgba(0, 0, 0, 0.2);
+		margin-top: 50px;
+		margin-bottom: 50px;
+		margin-left: 50px;
+		margin-right: 50px;
+		padding: 0;
+		width: 500px;
+
+	}
+
+
+	.formularioGodoy {
+
+		width: 100%;
+		font-family: 'Anton', sans-serif;
+
+	}
+
+	form {
+
+		display: flex;
+		justify-content: center;
+
+	}
+
+	.navbar-toggler {
+
+		background-color: rgba(255, 251, 4, 0.8);
+
+	}
+
+	.navbar-nav {
+
+		padding-right: 80px;
+		margin-left: 60px;
+		background-color: rgba(0, 0, 0, 0.4);
+
+	}
+
+	.nav-linkEstetica {
+
+		padding-left: 100px;
+		padding-right: 20px;
+
+	}
+
+	.tituloEsteticaGodoy {
+
+		font-size: 70px;
+
+	}
+
+	.imagenGodoy {
+
+		width: 300px;
+		height: 200px;
+		padding: 20px;
+		transition: all .8s;
+		display: flex;
+		flex-wrap: wrap;
+	}
+
+	.imagenGodoy:hover {
+
+		transform: scale(1.1);
+
+	}
 }
