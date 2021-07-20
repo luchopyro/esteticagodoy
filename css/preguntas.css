@@ -114,6 +114,12 @@ h2 {
 
 }
 
+.preguntasInicial{
+
+    font-size: 25px;
+
+}
+
 p {
 
     text-align: center;
@@ -330,6 +336,12 @@ h3 {
 
     }
 
+    .preguntasInicial{
+
+        font-size: 25px;
+
+   }
+
     .botonForm {
 
         padding: 30px;
@@ -471,6 +483,12 @@ h3 {
 
 	}
 
+    .preguntasInicial{
+
+        font-size: 25px;
+
+   }
+
 }
 
 @media all and (max-width: 411px) {
@@ -502,11 +520,6 @@ h3 {
 
     }
 
-    #preguntas{
-
-        padding:0;
-
-    }
 
     .tituloEsteticaGodoy{
 
@@ -527,9 +540,17 @@ h3 {
         background-color: rgba(0, 0, 0, 0.4);
 
     }
+
+   .preguntasInicial{
+
+        font-size: 25px;
+
+   }
+
+   
 }
 
-@media all and (max-width: 920px) {
+@media only screen and (min-width: 920px) {
 
     * {
 
@@ -551,16 +572,12 @@ h3 {
 
     }
 
-    #preguntas {
 
-        font-family: 'Anton', sans-serif;
-        font-weight: lighter;
-        text-align: center;
-        margin: 0;
-        padding-left: 80px;
-        padding-bottom: 20px;
+    .preguntasInicial{
 
-    }
+        font-size: 25px;
+
+   }
 
     .consultasEstetica {
 

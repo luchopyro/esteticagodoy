@@ -64,6 +64,12 @@
 	color: yellow;
 }
 
+body {
+	margin: 0;
+	padding: 0;
+	background: rgb(240, 240, 240)
+}
+
 
 .iconoQuienesSomos {
 
@@ -327,7 +333,7 @@ p {
 
 }
 
-@media all and (max-width: 920px) {
+@media only screen and (min-width: 920px) {
 
 	* {
 

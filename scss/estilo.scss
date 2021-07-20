@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
 
+$color: rgba(0, 0, 0, 0.4);
 
 @mixin color ($colores) {
 
@@ -38,7 +39,7 @@
 
 .navegador {
 
-       background: rgba(0, 0, 0, 0.4);
+       background: $color;
        padding: 0;
        height: 80px;
        width: 100%;
@@ -225,7 +226,7 @@ h2 {
 
               padding-right: 80px;
               margin-left: 60px;
-              background-color: rgba(0, 0, 0, 0.4)
+              background-color: $color;
 
        }
 
@@ -289,7 +290,7 @@ h2 {
 
               padding-right: 80px;
               margin-left: 60px;
-              background-color: rgba(0, 0, 0, 0.4)
+              background-color: $color;
 
        }
 
@@ -346,13 +347,13 @@ h2 {
 
               padding-right: 80px;
               margin-left: 60px;
-              background-color: rgba(0, 0, 0, 0.4)
+              background-color: $color;
 
        }
 
 }
 
-@media all and (max-width: 920px) {
+@media only screen and (min-width: 920px) {
 
        * {
 
@@ -390,7 +391,7 @@ h2 {
 
               padding-right: 80px;
               margin-left: 60px;
-              background-color: rgba(0, 0, 0, 0.4)
+              background-color: $color;
 
        }
 
