@@ -1,0 +1,584 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+@import "menuYfooter";
+
+$color: rgba(0, 0, 0, 0.4);
+
+body {
+    margin: 0;
+    padding: 0;
+    background: rgb(240, 240, 240)
+}
+
+
+.tituloEsteticaGodoy {
+
+    font-size: 80px;
+    font-family: 'Anton', sans-serif;
+    font-weight: lighter;
+    color: white;
+    padding-top: 3em;
+
+}
+
+h2 {
+    color: yellow;
+    font-family: 'Anton', sans-serif;
+    font-size: 30px;
+    text-align: center;
+    background: black;
+    font-weight: lighter;
+    box-shadow: 5px 5px 10px grey;
+    padding: 0;
+    margin: 0;
+}
+
+.consultasEstetica {
+
+    display: grid;
+    grid-template-columns: 40% 60%;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    justify-content: center;
+
+}
+
+.preguntas {
+
+    text-align: center;
+    padding-top: 30px;
+    color: black;
+    font-size: 20px;
+    font-family: 'Anton', sans-serif;
+    font-weight: lighter;
+
+}
+
+.preguntasInicial{
+
+    font-size: 25px;
+
+}
+
+p {
+
+    text-align: center;
+    padding-top: 30px;
+    color: grey;
+    font-size: 20px;
+    font-family: 'Anton', sans-serif;
+    font-weight: lighter;
+    text-shadow: 0.5px 0.5px black;
+
+}
+
+h3 {
+
+    font-family: 'Anton', sans-serif;
+    font-weight: lighter;
+    text-align: center;
+    margin: 0;
+    padding-left: 80px;
+    padding-bottom: 20px;
+}
+
+#preguntas {
+
+    font-family: 'Anton', sans-serif;
+    font-weight: lighter;
+    text-align: center;
+    margin: 0;
+    padding-bottom: 20px;
+    padding-right: 80px;
+
+}
+
+.formularioConsultas {
+
+    padding-left: 200px;
+    padding-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.formularioEstetica {
+
+    background: rgba(0, 0, 0, 0.2);
+    margin: 25rem;
+    margin: 0;
+    padding: 0;
+    width: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+
+}
+
+.formEstetica {
+
+    display: flex;
+    justify-content: center;
+    padding: 2em;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.formularioGodoy {
+
+    width: 25rem;
+    font-family: 'Anton', sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.formularioGodoyDos {
+
+    width: 25rem;
+    height: 150px;
+    font-family: 'Anton', sans-serif;
+    text-align: initial;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.botonEstetica {
+
+    background: black;
+    border-color: black;
+    width: 80px;
+    height: 50px;
+    color: white;
+    font-family: 'Anton', sans-serif;
+    font-weight: lighter;
+    margin: 5px;
+    display: flex;
+    flex-wrap: wrap;
+
+
+}
+
+.botonForm {
+
+    display: flex;
+    flex-wrap: wrap;
+    padding: 30px;
+    padding-left: 160px;
+    padding-right: 90px;
+
+}
+
+
+.botonEstetica {
+
+    padding-left: 15px;
+
+}
+
+
+.imagenDeEstetica {
+
+    background-image: url(../imagenes/fondoOscuro.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 650px;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+
+}
+
+@media all and (max-width: 576px) {
+
+    * {
+
+        box-sizing: border-box;
+        text-align: center;
+        padding: 0;
+        margin: 0;
+
+    }
+
+    .consultasEstetica {
+
+        display: flex;
+        flex-direction: column;
+        padding: 50px;
+
+    }
+
+    h3 {
+
+        font-family: 'Anton', sans-serif;
+        font-weight: lighter;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+        padding-bottom: 20px;
+
+    }
+
+    #preguntas {
+
+        font-family: 'Anton', sans-serif;
+        font-weight: lighter;
+        text-align: center;
+        margin: 0;
+        padding-left: 80px;
+        padding-bottom: 20px;
+
+    }
+
+    .formularioConsultas {
+
+        padding: 0;
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+
+    .preguntasFrecuentes {
+
+        padding: 50px;
+
+    }
+
+    .preguntasInicial {
+
+        font-size: 25px;
+
+    }
+
+    .botonForm {
+
+        padding: 30px;
+        padding-left: 150px;
+        padding-right: 100px;
+
+    }
+
+
+    .botonEstetica {
+
+        padding-left: 15px;
+
+    }
+
+
+    .navbar-toggler {
+
+        background-color: rgba(255, 251, 4, 0.8);
+
+    }
+
+    .navbar-nav {
+
+        padding-right: 80px;
+        margin-left: 60px;
+        background-color: $color;
+
+    }
+
+    .logoEstetica {
+
+        width: 70%;
+
+    }
+
+    .tituloEsteticaGodoy {
+
+        font-size: 60px;
+
+    }
+
+}
+
+@media all and (max-width: 786px) {
+
+    * {
+
+        box-sizing: border-box;
+        text-align: center;
+        padding: 0;
+        margin: 0;
+
+    }
+
+    h3 {
+
+        font-family: 'Anton', sans-serif;
+        font-weight: lighter;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+        padding-bottom: 20px;
+
+    }
+
+    #preguntas {
+
+        font-family: 'Anton', sans-serif;
+        font-weight: lighter;
+        text-align: center;
+        margin: 0;
+        padding-left: 80px;
+        padding-bottom: 20px;
+
+    }
+
+    .consultasEstetica {
+
+        display: flex;
+        flex-direction: column;
+        padding: 50px;
+
+    }
+
+    .formularioConsultas {
+
+        padding: 0;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+
+    }
+
+    .preguntasFrecuentes {
+
+        padding: 50px;
+
+    }
+
+    .botonForm {
+
+        padding: 30px;
+        padding-left: 100px;
+        padding-right: 100px;
+
+    }
+
+    .botonEstetica {
+
+        padding-left: 15px;
+
+    }
+
+    .navbar-toggler {
+
+        background-color: rgba(255, 251, 4, 0.8);
+
+    }
+
+    .navbar-nav {
+
+        padding-right: 80px;
+        margin-left: 60px;
+        background-color: $color;
+
+    }
+
+    .nav-linkEstetica {
+
+        padding-left: 100px;
+        padding-right: 20px;
+
+    }
+
+    .tituloEsteticaGodoy {
+
+        font-size: 60px;
+
+    }
+
+    .preguntasInicial {
+
+        font-size: 25px;
+
+    }
+
+}
+
+@media all and (max-width: 411px) {
+
+    .formularioEstetica {
+
+        margin: 0;
+        padding: 0;
+        width: 80%;
+    }
+
+    .formularioGodoyDos {
+
+        height: 100px;
+        width: 100%;
+
+    }
+
+    .formularioGodoy {
+
+        width: 100%;
+
+    }
+
+
+    .botonForm {
+
+        padding: 0;
+
+    }
+
+
+    .tituloEsteticaGodoy {
+
+        font-size: 50px;
+
+    }
+
+    .logoEstetica {
+
+        width: 100%;
+
+    }
+
+    .navbar-nav {
+
+        padding-right: 80px;
+        margin-left: 60px;
+        background-color: $color;
+
+    }
+
+    .preguntasInicial {
+
+        font-size: 25px;
+
+    }
+
+
+}
+
+
+@media only screen and (min-width: 899px) and (max-width: 990px) {
+
+    * {
+
+        box-sizing: border-box;
+        text-align: center;
+        padding: 0;
+        margin: 0;
+
+    }
+
+    h3 {
+
+        font-family: 'Anton', sans-serif;
+        font-weight: lighter;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+        padding-bottom: 20px;
+
+    }
+
+
+    .preguntasInicial {
+
+        font-size: 25px;
+
+    }
+
+    .consultasEstetica {
+
+        display: flex;
+        flex-direction: column;
+        padding: 50px;
+
+    }
+
+    .formularioConsultas {
+
+        padding: 0;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+
+    }
+
+    .preguntasFrecuentes {
+
+        padding: 50px;
+
+    }
+
+    .botonForm {
+
+        padding: 30px;
+        padding-left: 100px;
+        padding-right: 100px;
+
+    }
+
+    .botonEstetica {
+
+        padding-left: 15px;
+
+    }
+
+    .navbar-toggler {
+
+        background-color: rgba(255, 251, 4, 0.8);
+
+    }
+
+    .navbar-nav {
+
+        padding-right: 80px;
+        margin-left: 60px;
+        background-color: $color;
+
+    }
+
+    .nav-linkEstetica {
+
+        padding-left: 100px;
+        padding-right: 20px;
+
+    }
+
+    .tituloEsteticaGodoy {
+
+        font-size: 70px;
+
+    }
+
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+
+    .navbar-light .navbar-nav .nav-link {
+
+        font-family: 'Anton', sans-serif;
+        color: white;
+        padding-left: 25px;
+        font-size: 20px;
+
+    }
+
+    .tituloEsteticaGodoy {
+
+        font-size: 70px;
+
+    }
+
+    .formularioConsultas {
+
+        padding-left: 90px;
+
+    }
+
+
+}

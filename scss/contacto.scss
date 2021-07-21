@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
 
+@import "menuYfooter";
 
 $color: rgba(0, 0, 0, 0.4);
 
@@ -37,73 +38,6 @@ $color: rgba(0, 0, 0, 0.4);
        @include color (black)
 }
 
-
-
-.navegador {
-
-       background: $color;
-       padding: 0;
-       height: 80px;
-       width: 100%;
-       position: fixed;
-       top: 0;
-       display: flex;
-       flex-wrap: wrap;
-       z-index: 1;
-
-
-}
-
-
-.navbar-light .navbar-nav .nav-link {
-
-       font-family: 'Anton', sans-serif;
-       color: white;
-       padding-left: 4em;
-       font-size: 20px;
-
-
-}
-
-.navbar-light .navbar-nav .nav-link:hover {
-
-       color: yellow;
-}
-
-
-
-.navbar-light .navbar-nav .active>.nav-link,
-.navbar-light .navbar-nav .nav-link.active,
-.navbar-light .navbar-nav .nav-link.show,
-.navbar-light .navbar-nav .show>.nav-link {
-
-       color: white;
-
-}
-
-
-.navbar {
-
-       padding: 0;
-
-}
-
-.nav-linkEstetica {
-
-       padding-left: 10px;
-       padding-right: 2em;
-       color: yellow;
-       font-family: 'Anton', sans-serif;
-       font-size: 30px;
-       display: flex;
-       align-items: center;
-}
-
-.nav-linkEstetica:hover {
-
-       text-decoration: none;
-       color: yellow;
-}
 
 
 .tituloEsteticaGodoy {

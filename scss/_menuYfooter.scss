@@ -1,0 +1,95 @@
+
+.navegador {
+
+	background: rgba(0, 0, 0, 0.4);
+	padding: 0;
+	height: 80px;
+	width: 100%;
+	position: fixed;
+	top: 0;
+	display: flex;
+	flex-wrap: wrap;
+	z-index: 1;
+
+}
+
+
+.navbar-light .navbar-nav .nav-link {
+
+	font-family: 'Anton', sans-serif;
+	color: white;
+	padding-left: 4em;
+	font-size: 20px;
+
+
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+
+	color: yellow;
+}
+
+
+
+.navbar-light .navbar-nav .active>.nav-link,
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .show>.nav-link {
+
+	color: yellow;
+
+}
+
+.navbar {
+
+	padding: 0;
+
+}
+
+.nav-linkEstetica {
+
+	padding-left: 10px;
+	padding-right: 2em;
+	color: yellow;
+	font-family: 'Anton', sans-serif;
+	font-size: 30px;
+	display: flex;
+	align-items: center;
+}
+
+.nav-linkEstetica:hover {
+
+	text-decoration: none;
+	color: yellow;
+}
+
+
+.imagenDeFondoDos {
+
+	background: black;
+	height: 300px;
+	max-width: 100%;
+	text-align: center;
+
+
+}
+
+.logoEstetica {
+
+	width: 400px;
+	height: 150px;
+	padding-bottom: 0;
+	padding-top: 60px;
+
+}
+
+
+.contactoFooter {
+
+	color: white;
+	font-family: 'Anton', sans-serif;
+	padding-top: 0;
+	font-size: 20px;
+	text-align: center;
+
+}
