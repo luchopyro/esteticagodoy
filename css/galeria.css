@@ -302,7 +302,7 @@ p {
 }
 
 
-@media only screen and (min-width: 920px) and (max-width: 1200px) {
+@media only screen and (min-width: 920px) and (max-width: 990px) {
 
   * {
 
@@ -333,6 +333,32 @@ p {
     padding-right: 20px;
 
   }
+
+  .tituloEsteticaGodoy {
+
+    font-size: 70px;
+  
+  }
+
+  .secundario__imagen {
+
+    width: 280px;
+    height: 180px;
+
+  }
+
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+
+  .navbar-light .navbar-nav .nav-link {
+
+		font-family: 'Anton', sans-serif;
+		color: white;
+		padding-left: 25px;
+		font-size: 20px;
+
+	}
 
   .tituloEsteticaGodoy {
 

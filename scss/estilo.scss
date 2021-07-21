@@ -356,7 +356,7 @@ h2 {
 }
 
 
-@media only screen and (min-width: 920px) and (max-width: 1200px) {
+@media only screen and (min-width: 920px) and (max-width: 990px) {
 
        * {
 
@@ -410,7 +410,7 @@ h2 {
               width: 40px;
               height: 40px;
 
-       }  
+       }
 
        .tituloEsteticaGodoy {
 
@@ -420,5 +420,37 @@ h2 {
 
 }
 
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
 
+       .navbar-light .navbar-nav .nav-link {
 
+              font-family: 'Anton', sans-serif;
+              color: white;
+              padding-left: 25px;
+              font-size: 20px;
+
+       }
+
+       .tituloEsteticaGodoy {
+
+              font-size: 70px;
+
+       }
+
+       .contactoGodoy {
+
+              padding: 0;
+              margin: 0;
+              width: 80%;
+              height: 80%;
+
+       }
+
+       .iconoContacto{
+
+              display: flex;
+              justify-content: center;
+
+       }
+
+}
