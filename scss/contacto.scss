@@ -3,6 +3,7 @@
 @import "menuYfooter";
 
 $color: rgba(0, 0, 0, 0.4);
+$colorT: rgba(255, 251, 4, 0.8);
 
 
 @mixin color ($colores) {
@@ -57,16 +58,18 @@ h2 {
        padding-top: 20px;
        padding-bottom: 100px;
 
-       .contactoGodoy {
+       
 
-              height: 80%;
-              width: 80%;
-              display: flex;
-              padding-left: 18rem;
-              padding-top: 50px;
-              padding-bottom: 50px;
+}
 
-       }
+.contactoGodoy {
+
+       height: 80%;
+       width: 80%;
+       display: flex;
+       padding-left: 18rem;
+       padding-top: 50px;
+       padding-bottom: 50px;
 
 }
 
@@ -78,14 +81,14 @@ h2 {
        color: grey;
        padding-bottom: 100px;
        text-shadow: 0.5px 0.5px black;
+      
+}
 
-       .iconoSocial {
+.iconoSocial {
 
-              width: 40px;
-              height: 40px;
-              margin: 10px;
-
-       }
+       width: 40px;
+       height: 40px;
+       margin: 10px;
 
 }
 
@@ -100,21 +103,22 @@ h2 {
        background-position: center;
        display: flex;
        justify-content: center;
+   
 
-       .tituloEsteticaGodoy {
+}
 
-              font-size: 80px;
-              font-family: 'Anton', sans-serif;
-              font-weight: lighter;
-              color: white;
-              padding-top: 3em;
-       
-       }
+.tituloEsteticaGodoy {
+
+       font-size: 80px;
+       font-family: 'Anton', sans-serif;
+       font-weight: lighter;
+       color: white;
+       padding-top: 3em;
 
 }
 
 
-@media all and (max-width: 576px) {
+@media only screen and (min-width: 576px) and (max-width: 780px) {
 
 
        * {
@@ -144,7 +148,7 @@ h2 {
 
        .navbar-toggler {
 
-              background-color: rgba(255, 251, 4, 0.8);
+              background-color: $colorT;
 
        }
 
@@ -177,7 +181,7 @@ h2 {
 
 }
 
-@media all and (max-width: 786px) {
+@media only screen and (min-width: 786px) and (max-width: 890px) {
 
 
        * {
@@ -198,7 +202,7 @@ h2 {
 
        .contactoGodoy {
 
-              padding: 0;
+              padding-left: 80px;
               margin: 0;
               width: 90%;
               height: 90%;
@@ -208,7 +212,7 @@ h2 {
 
        .navbar-toggler {
 
-              background-color: rgba(255, 251, 4, 0.8);
+              background-color: $colorT;
 
        }
 
@@ -277,6 +281,15 @@ h2 {
 
        }
 
+       .contactoGodoy {
+
+              padding-left: 80px;
+              margin: 0;
+              width: 90%;
+              height: 90%;
+
+       }
+
 }
 
 
@@ -310,7 +323,7 @@ h2 {
 
        .navbar-toggler {
 
-              background-color: rgba(255, 251, 4, 0.8);
+              background-color: $colorT;
 
        }
 

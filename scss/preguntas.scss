@@ -30,37 +30,38 @@ h2 {
     padding-top: 100px;
     padding-bottom: 100px;
     justify-content: center;
+  
+}
 
-    .preguntas {
+.preguntas {
 
-        text-align: center;
-        padding-top: 30px;
-        color: black;
-        font-size: 20px;
-        font-family: 'Anton', sans-serif;
-        font-weight: lighter;
-    
-    }
-    
-    .preguntasInicial{
-    
-        font-size: 25px;
-    
-    }
-    
-    p {
-    
-        text-align: center;
-        padding-top: 30px;
-        color: grey;
-        font-size: 20px;
-        font-family: 'Anton', sans-serif;
-        font-weight: lighter;
-        text-shadow: 0.5px 0.5px black;
-    
-    }
+    text-align: center;
+    padding-top: 30px;
+    color: black;
+    font-size: 20px;
+    font-family: 'Anton', sans-serif;
+    font-weight: lighter;
 
 }
+
+.preguntasInicial{
+
+    font-size: 25px;
+
+}
+
+p {
+
+    text-align: center;
+    padding-top: 30px;
+    color: grey;
+    font-size: 20px;
+    font-family: 'Anton', sans-serif;
+    font-weight: lighter;
+    text-shadow: 0.5px 0.5px black;
+
+}
+
 
 
 
@@ -172,19 +173,21 @@ h3 {
     display: flex;
     justify-content: center;
 
-    .tituloEsteticaGodoy {
+}
 
-        font-size: 80px;
-        font-family: 'Anton', sans-serif;
-        font-weight: lighter;
-        color: white;
-        padding-top: 3em;
-    
-    }
+
+.tituloEsteticaGodoy {
+
+    font-size: 80px;
+    font-family: 'Anton', sans-serif;
+    font-weight: lighter;
+    color: white;
+    padding-top: 3em;
 
 }
 
-@media all and (max-width: 576px) {
+
+@media only screen and (min-width: 576px) and (max-width: 780px) {
 
     * {
 
@@ -289,7 +292,7 @@ h3 {
 
 }
 
-@media all and (max-width: 786px) {
+@media only screen and (min-width: 786px) and (max-width: 890px) {
 
     * {
 
