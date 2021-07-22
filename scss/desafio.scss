@@ -345,7 +345,7 @@ p {
 
 
 
-@media only screen and (min-width: 576px) and (max-width: 780px) {
+@media all and (max-width: 576px) {
 
 	* {
 
@@ -440,7 +440,7 @@ p {
 
 }
 
-@media only screen and (min-width: 786px) and (max-width: 890px) {
+@media all and (max-width: 786px) {
 
 	* {
 
@@ -548,6 +548,12 @@ p {
 	.tituloEsteticaGodoy {
 
 		font-size: 60px;
+
+	}
+
+	.navbar-toggler {
+
+		background-color: rgba(255, 251, 4, 0.8);
 
 	}
 
