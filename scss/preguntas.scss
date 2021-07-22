@@ -11,16 +11,6 @@ body {
 }
 
 
-.tituloEsteticaGodoy {
-
-    font-size: 80px;
-    font-family: 'Anton', sans-serif;
-    font-weight: lighter;
-    color: white;
-    padding-top: 3em;
-
-}
-
 h2 {
     color: yellow;
     font-family: 'Anton', sans-serif;
@@ -41,36 +31,38 @@ h2 {
     padding-bottom: 100px;
     justify-content: center;
 
+    .preguntas {
+
+        text-align: center;
+        padding-top: 30px;
+        color: black;
+        font-size: 20px;
+        font-family: 'Anton', sans-serif;
+        font-weight: lighter;
+    
+    }
+    
+    .preguntasInicial{
+    
+        font-size: 25px;
+    
+    }
+    
+    p {
+    
+        text-align: center;
+        padding-top: 30px;
+        color: grey;
+        font-size: 20px;
+        font-family: 'Anton', sans-serif;
+        font-weight: lighter;
+        text-shadow: 0.5px 0.5px black;
+    
+    }
+
 }
 
-.preguntas {
 
-    text-align: center;
-    padding-top: 30px;
-    color: black;
-    font-size: 20px;
-    font-family: 'Anton', sans-serif;
-    font-weight: lighter;
-
-}
-
-.preguntasInicial{
-
-    font-size: 25px;
-
-}
-
-p {
-
-    text-align: center;
-    padding-top: 30px;
-    color: grey;
-    font-size: 20px;
-    font-family: 'Anton', sans-serif;
-    font-weight: lighter;
-    text-shadow: 0.5px 0.5px black;
-
-}
 
 h3 {
 
@@ -82,16 +74,6 @@ h3 {
     padding-bottom: 20px;
 }
 
-#preguntas {
-
-    font-family: 'Anton', sans-serif;
-    font-weight: lighter;
-    text-align: center;
-    margin: 0;
-    padding-bottom: 20px;
-    padding-right: 80px;
-
-}
 
 .formularioConsultas {
 
@@ -189,6 +171,16 @@ h3 {
     background-position: center;
     display: flex;
     justify-content: center;
+
+    .tituloEsteticaGodoy {
+
+        font-size: 80px;
+        font-family: 'Anton', sans-serif;
+        font-weight: lighter;
+        color: white;
+        padding-top: 3em;
+    
+    }
 
 }
 

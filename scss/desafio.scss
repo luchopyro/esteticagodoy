@@ -30,18 +30,20 @@ $color: rgba(0, 0, 0, 0.4);
 	display: flex;
 	justify-content: center;
 
+	.tituloEsteticaGodoy {
+
+		font-size: 80px;
+		font-family: 'Anton', sans-serif;
+		font-weight: lighter;
+		color: white;
+		padding-top: 3em;
+	
+	
+	}
+
 }
 
-.tituloEsteticaGodoy {
 
-	font-size: 80px;
-	font-family: 'Anton', sans-serif;
-	font-weight: lighter;
-	color: white;
-	padding-top: 3em;
-
-
-}
 
 
 .formularioEstetica {
@@ -123,6 +125,23 @@ h3 {
 .consultanos {
 
 	padding-top: 100px;
+
+	.estiloTexto {
+
+		text-align: center;
+		font-family: 'Anton', sans-serif;
+		font-size: 20px;
+		color: grey;
+	
+	}
+
+	.contactoUno {
+
+		text-decoration: none;
+		color: yellow;
+		font-size: 25px;
+	
+	}
 
 }
 
@@ -234,15 +253,6 @@ h4 {
 }
 
 
-.estiloTexto {
-
-	text-align: center;
-	font-family: 'Anton', sans-serif;
-	font-size: 20px;
-	color: grey;
-
-}
-
 .frasesBelleza {
 
 	background: white;
@@ -281,18 +291,6 @@ h4 {
 
 	display: flex;
 	justify-content: space-between;
-}
-
-
-
-
-
-.contactoUno {
-
-	text-decoration: none;
-	color: yellow;
-	font-size: 25px;
-
 }
 
 

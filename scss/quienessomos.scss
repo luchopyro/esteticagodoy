@@ -16,18 +16,19 @@ body {
 	padding-top: 100px;
 	padding-bottom: 100px;
 
+	.quienesSomosGodoy {
+
+		height: 70%;
+		width: 70%;
+		display: flex;
+		padding-left: 18rem;
+		padding-top: 50px;
+		padding-bottom: 50px;
+	}
+
+
 }
 
-
-.tituloEsteticaGodoy {
-
-	font-size: 80px;
-	font-family: 'Anton', sans-serif;
-	font-weight: lighter;
-	color: white;
-	padding-top: 3em;
-
-}
 
 h2 {
 	color: yellow;
@@ -50,17 +51,12 @@ h2 {
 	background: white;
 	padding: 20px;
 
-}
+	p {
 
+		text-shadow: 1px 1px black;
+	
+	}
 
-.quienesSomosGodoy {
-
-	height: 70%;
-	width: 70%;
-	display: flex;
-	padding-left: 18rem;
-	padding-top: 50px;
-	padding-bottom: 50px;
 }
 
 
@@ -74,13 +70,18 @@ h2 {
 	display: flex;
 	justify-content: center;
 
+	.tituloEsteticaGodoy {
+
+		font-size: 80px;
+		font-family: 'Anton', sans-serif;
+		font-weight: lighter;
+		color: white;
+		padding-top: 3em;
+	
+	}
+
 }
 
-p {
-
-	text-shadow: 1px 1px black;
-
-}
 
 @media all and (max-width: 576px) {
 
@@ -307,16 +308,16 @@ p {
 
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
 
-    .navbar-light .navbar-nav .nav-link {
-  
-          font-family: 'Anton', sans-serif;
-          color: white;
-          padding-left: 25px;
-          font-size: 20px;
-  
-      }
+	.navbar-light .navbar-nav .nav-link {
 
-    .tituloEsteticaGodoy{
+		font-family: 'Anton', sans-serif;
+		color: white;
+		padding-left: 25px;
+		font-size: 20px;
+
+	}
+
+	.tituloEsteticaGodoy {
 
 		font-size: 70px;
 
