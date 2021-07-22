@@ -3,6 +3,7 @@
 @import "menuYfooter";
 
 $color: rgba(0, 0, 0, 0.4);
+$colorT: rgba(255, 251, 4, 0.8);
 
 body {
     margin: 0;
@@ -266,7 +267,7 @@ h3 {
 
     .navbar-toggler {
 
-        background-color: rgba(255, 251, 4, 0.8);
+        background-color: $colorT;
 
     }
 
@@ -364,7 +365,7 @@ h3 {
 
     .navbar-toggler {
 
-        background-color: rgba(255, 251, 4, 0.8);
+        background-color: $colorT;
 
     }
 
@@ -401,7 +402,7 @@ h3 {
 
     .navbar-toggler {
 
-        background-color: rgba(255, 251, 4, 0.8);
+        background-color: $colorT;
 
     }
 
@@ -531,7 +532,7 @@ h3 {
 
     .navbar-toggler {
 
-        background-color: rgba(255, 251, 4, 0.8);
+        background-color: $colorT;
 
     }
 
